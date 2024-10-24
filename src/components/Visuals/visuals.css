@@ -1,0 +1,19 @@
+.visual{
+    gap: 32px;
+    background: black;
+    color: white;
+    padding-top: 82px;
+    justify-content: center;
+    text-align: center;
+}
+
+.textv{
+    margin-bottom: 32px;
+}
+.imagev{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.imagev img{
+    width: 100%;
+}

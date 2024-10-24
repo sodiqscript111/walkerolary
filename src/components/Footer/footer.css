@@ -1,0 +1,81 @@
+.footer {
+    background-color: #222; /* Dark background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the footer */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the content */
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space out items */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.footer-info {
+    display: flex; /* Flexbox for inner content */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.footer-info .description {
+    margin-bottom: 10px; /* Space below the description */
+}
+
+.footer-info .contact,
+.footer-info .menu {
+    margin-right: 20px; /* Space between contact and menu */
+}
+
+.footer h4 {
+    margin-top: 10px; /* Space above headings */
+    margin-bottom: 5px; /* Space below headings */
+}
+
+.footer p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+.footer ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.footer ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .footer-info {
+        margin-bottom: 20px; /* Space below footer info */
+    }
+
+    .footer-info .contact,
+    .footer-info .menu {
+        margin-right: 0; /* Remove right margin on mobile */
+        margin-bottom: 10px; /* Add space below each section */
+    }
+
+    .footer h4 {
+        font-size: 18px; /* Adjust heading size */
+    }
+
+    .footer p,
+    .footer ul li {
+        font-size: 14px; /* Adjust font size for paragraphs and list items */
+    }
+}

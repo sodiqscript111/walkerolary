@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   padding: 10px 30px;
+    align-items: center;
+   height: 80px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    display: space-between;
+    gap: 22px;
+    font-size: 22px;
+}
+.logo img {
+    width: 100px;
+}

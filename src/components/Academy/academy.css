@@ -1,0 +1,89 @@
+.academy{
+    background: black;
+    height: 520px;
+    color: white;
+    display: flex;
+    padding: 52px 82px;
+    gap: 52px;
+}
+.imageac{
+    width: 40%;
+}
+.imageac img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+.textac{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    font-size: 17px;
+line-height: 28.999px;
+letter-spacing: normal;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 430;
+}
+.button-39 {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209,213,219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-39:hover {
+    background-color: rgb(249,250,251);
+  }
+  
+  .button-39:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .button-39:focus-visible {
+    box-shadow: none;
+  }
+  @media (max-width: 768px) {
+    .academy {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Adjust height for better content fit */
+        padding: 32px 16px; /* Reduced padding for smaller screens */
+        gap: 32px; /* Adjust gap between elements */
+    }
+
+    .imageac {
+        width: 100%; /* Full width for image section */
+    }
+
+    .imageac img {
+        height: auto; /* Auto height for responsiveness */
+        max-height: 300px; /* Limit height for mobile devices */
+        object-position: top;
+    }
+
+    .textac {
+        width: 100%; /* Full width for text section */
+        font-size: 15px; /* Adjusted font size for better mobile readability */
+        gap: 16px; /* Reduced gap for mobile */
+    }
+
+    .button-39 {
+        width: 100%; /* Full width for button */
+        padding: .5rem 0; /* Adjust padding for mobile */
+    }
+}
