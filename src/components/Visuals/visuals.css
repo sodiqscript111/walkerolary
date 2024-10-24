@@ -1,4 +1,4 @@
-.visual{
+.visual {
     gap: 32px;
     background: black;
     color: white;
@@ -7,13 +7,32 @@
     text-align: center;
 }
 
-.textv{
+.textv {
     margin-bottom: 32px;
 }
-.imagev{
+
+.imagev {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    
+
+    
 }
 .imagev img{
     width: 100%;
+}
+
+.observed-image {
+    width: 100%;
+    max-width: 300px; /* Set a maximum width to control image size */
+    max-height: 400px; /* Optional: Limit height if needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the available space */
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.observed-image.animate {
+    opacity: 1;
+    transform: translateY(0);
 }
