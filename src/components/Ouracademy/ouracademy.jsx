@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import "./ouracademy.css";
 import Navbar from "../Navbar/navbar";
 import Footer from "../Footer/footer";
 const Ouracademy = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on component mount
+  }, []);
   return (
     <div className="academys">
       <Navbar />
