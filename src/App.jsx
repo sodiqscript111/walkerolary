@@ -8,10 +8,15 @@ import {
   Routes
 } from "react-router-dom";
 import Home from './components/Home/home';
+import Ouracademy from './components/Ouracademy/ouracademy';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>,
+  },
+  {
+    path: "/academy",
+    element: <Ouracademy/>,
   },
 ]);
 
