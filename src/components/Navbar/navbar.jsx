@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import menu from "../../assets/menu.png";  // Importing menu icon
 import close from "../../assets/close.png"; // Importing close icon
@@ -30,7 +31,7 @@ const Navbar = () => {
         <li>About Us</li>
         <li>Contact</li>
         <li>Models</li>
-        <li>Academy</li>
+        <li><Link to="/academy">Academy</Link></li>
       </ul>
     </nav>
   );
