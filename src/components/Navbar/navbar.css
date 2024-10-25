@@ -10,11 +10,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    padding-top: 10px;
+    padding-top: 10;
     height: 80px;
     background-color: #fff; /* Change background color as needed */
   }
-  
+  .linka{
+    color: white;
+  }
   .logo img {
     width: 100px;
   }
@@ -52,7 +54,8 @@
       top: 80px; /* Below the navbar */
       left: 0;
       width: 100%;
-      background-color: #333;
+      background-color: white;
+      color: black;
       padding: 20px;
     }
   
@@ -62,8 +65,9 @@
   
     .nav-links li {
       margin-bottom: 20px;
-      color: white;
-      text-align: center;
+      margin-right: 20px;
+      color: black;
+      text-align: right;
       font-size: 20px;
     }
   

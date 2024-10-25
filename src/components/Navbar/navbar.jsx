@@ -31,7 +31,7 @@ const Navbar = () => {
         <li>About Us</li>
         <li>Contact</li>
         <li>Models</li>
-        <li><Link to="/academy">Academy</Link></li>
+        <li className="linka"><Link to="/academy">Academy</Link></li>
       </ul>
     </nav>
   );
