@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./academy.css"
 const Academy = () =>{
     return(
@@ -8,7 +9,9 @@ const Academy = () =>{
                 <p>At <b> Walkerolarry Models Academy </b>, we focus on nurturing and developing aspiring models with the skills and knowledge needed to succeed in the competitive fashion industry. Our academy offers a comprehensive curriculum that covers runway training, personal branding, portfolio building, and industry etiquette.
 
 Our experienced coaches provide hands-on guidance, ensuring each model is well-prepared to excel on both local and global stages. Whether you're just starting out or looking to refine your skills, Walkerolarry Models Academy is the perfect place to take your modeling career to the next level.</p>
-<button class="button-39" role="button"><a href="/academy">JOIN US</a></button>
+<button className="button-39" role="button">
+  <Link to="/academy">JOIN US</Link>
+</button>
            
             </div>
 
